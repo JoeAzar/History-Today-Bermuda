@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.moleml.moleml" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>MoleML</name>
+<widget id="com.htb.htb" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>History Today: Bermuda</name>
     <description>
-        App for detecting Melanoma and Basal Cell Carcinoma using OpenCV/ML.
+        An app the provides a scavenger hunt-like historical experience for St. George's, Bermuda.
     </description>
-    <author email="jjamappteam@gmail.com" href="moleml.co">
-        AJAM App Team
+    <author email="jazar@acm.org" href="">
+        Joe Azar-Williams
     </author>
     <content src="index.html" />
     <preference name="orientation" value="default" />
