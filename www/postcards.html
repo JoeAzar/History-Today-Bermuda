@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/postcards.css" rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/parse-1.5.0.min.js"></script>
+</head>
+
+<body class="teal darken-1">
+    <main>
+        <div class="container" id="main">
+            <div style="width: 100%" class="left-align">
+                <img style="width: 30%; height: auto; max-width: 100px;" class="right" src="img/G_History Today.svg">
+                <a href="#"><i class="material-icons" style="padding-top: 28px; padding-left: 8px; font-size: 42px; color: #ffcc00" onclick="/*$('.button-collapse').sideNav('show');*/">settings</i></a>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <ul id="list">
+                        <li>
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/hoeing-hall.jpg">
+                                    <span class="card-title light-shadow">Gilbert Hall</span>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#!" class="green-text" onclick="disp_check(43.130702, -77.631046,1)">I'm here!</a>
+                                    <a href="#!" class="yellow-text text-darken-4">Get Hint</a>
+
+                                    <div class="preloader-wrapper big active hide" style="
+    position: absolute; right: 30px; bottom: 20px; height: 20px; width: 20px;" id="1">
+                                        <div class="spinner-layer spinner-blue-only">
+                                            <div class="circle-clipper left">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <div class="gap-patch">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <div class="circle-clipper right">
+                                                <div class="circle"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/RushRheesLibrary.jpg">
+                                    <span class="card-title light-shadow">Rush Rhees</span>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#!" class="green-text" onclick="disp_check(43.128268, -77.628626, 2)">I'm here!</a>
+                                    <a href="#!" class="yellow-text text-darken-4">Get Hint</a>
+
+                                    <div class="preloader-wrapper big active hide" style="
+    position: absolute; right: 30px; bottom: 20px; height: 20px; width: 20px;" id="2">
+                                        <div class="spinner-layer spinner-blue-only">
+                                            <div class="circle-clipper left">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <div class="gap-patch">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <div class="circle-clipper right">
+                                                <div class="circle"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/carlson.jpg">
+                                    <span class="card-title light-shadow">Frederick and Mary Reber House</span>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#!" class="green-text" onclick="disp_check(43.125141, -77.629869, 3)">I'm here!</a>
+                                    <a href="#!" class="yellow-text text-darken-4">Get Hint</a>
+
+                                    <div class="preloader-wrapper big active hide" style="
+    position: absolute; right: 30px; bottom: 20px; height: 20px; width: 20px;">
+                                        <div class="spinner-layer spinner-blue-only" id="3">
+                                            <div class="circle-clipper left">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <div class="gap-patch">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <div class="circle-clipper right">
+                                                <div class="circle"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!--<div class="card">
+                        <div class="card-image">
+                            <img src="img/big-house1.jpg">
+                            <span class="card-title light-shadow">Erastus Snow's "Big House"</span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="green-text" onclick="disp_check(43.130702, -77.631046)">I'm here!</a>
+                            <a href="#" class="yellow-text text-darken-4">Get Hint</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/catholic-thrift-store1.jpg">
+                            <span class="card-title light-shadow">Catholic Thrift Store</span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="green-text">I'm here!</a>
+                            <a href="#" class="yellow-text text-darken-4">Get Hint</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/frederick-mary-reber2.jpg">
+                            <span class="card-title light-shadow">Frederick and Mary Reber House</span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="green-text">I'm here!</a>
+                            <a href="#" class="yellow-text text-darken-4">Get Hint</a>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+    </main>
+    <div id="modal1" class="modal bottom-sheet">
+        <div class="modal-content">
+            <h4>Congrats!</h4>
+            <p>You've completed this objective... now do the others!</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">ok!</a>
+        </div>
+    </div>
+    <div id="modal2" class="modal bottom-sheet">
+        <div class="modal-content">
+            <h4>Whoops!</h4>
+            <p>Looks like you're not quite there yet... keep looking!</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">ok!</a>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="materialize/js/materialize.js"></script>
+<script type="text/javascript" src="js/gps.js"></script>
+<script type="text/javascript">
+    Materialize.showStaggeredList('#list');
+
+    function disp_check(lat, long, id) {
+        $("#"+id).removeClass("hide");
+        var cb = function (dist) {
+            $("#"+id).addClass("hide");
+            if (dist < 30)
+                $('#modal1').openModal();
+            else
+                $('#modal2').openModal();
+        };
+        getDistFromCurrentLocation(lat, long, cb);
+    }
+</script>
+
+</html>

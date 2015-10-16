@@ -1,0 +1,1274 @@
+Last login: Mon Sep 21 15:04:59 on ttys002
+dhcp-10-5-10-231:site-beta joeazar$ cd ..
+dhcp-10-5-10-231:Front End joeazar$ cd ..
+dhcp-10-5-10-231:Promly joeazar$ cd ..
+dhcp-10-5-10-231:dev joeazar$ cd ..
+dhcp-10-5-10-231:Documents joeazar$ cd ..
+dhcp-10-5-10-231:~ joeazar$ cd Dropbox
+dhcp-10-5-10-231:Dropbox joeazar$ ls
+Camera Uploads			Icon?				Writing
+College				OneNote (flatflop@msn.com)	modInfo
+Demeter - Joe			Photos
+Getting Started.pdf		Prom
+dhcp-10-5-10-231:Dropbox joeazar$ cd College
+dhcp-10-5-10-231:College joeazar$ cd Freshman
+dhcp-10-5-10-231:Freshman joeazar$ ls
+CSC 172		HIS 100		MTH 150		Research	TR-Sched.png	WRT 105
+dhcp-10-5-10-231:Freshman joeazar$ cd Research
+dhcp-10-5-10-231:Research joeazar$ ls
+History-Today-Bermuda
+dhcp-10-5-10-231:Research joeazar$ git clone "https://github.com/JoeAzar/History-Today-Bermuda.git"
+Cloning into 'History-Today-Bermuda'...
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+Checking connectivity... done.
+dhcp-10-5-10-231:Research joeazar$ git pull
+A	LICENSE
+U	README.md
+Pull is not possible because you have unmerged files.
+Please, fix them up in the work tree, and then use 'git add/rm <file>'
+as appropriate to mark resolution, or use 'git commit -a'.
+dhcp-10-5-10-231:Research joeazar$ git add .
+dhcp-10-5-10-231:Research joeazar$ git commit "init"
+fatal: cannot do a partial commit during a merge.
+dhcp-10-5-10-231:Research joeazar$ git pull
+M	Dropbox/College/Freshman/Research/.DS_Store
+A	Dropbox/College/Freshman/Research/stuff/.DS_Store
+A	Dropbox/College/Freshman/Research/stuff/LICENSE
+A	Dropbox/College/Freshman/Research/stuff/README 2.53.51 PM.md
+A	Dropbox/College/Freshman/Research/stuff/config 2.53.51 PM.xml
+A	Dropbox/College/Freshman/Research/stuff/hooks 2.53.51 PM/README.md
+A	Dropbox/College/Freshman/Research/stuff/plugins 2.53.51 PM/fetch.json
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/.DS_Store
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/cordova.android.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/cordova.ios.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/cordova.wp8.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/css/index.css
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/history.html
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/icon.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/img/.DS_Store
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/img/MoLe.svg
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/img/MoLe2.svg
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/img/MoLe3.svg
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/img/logo.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/index.html
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/js/.DS_Store
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/js/Chart.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/js/index.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/js/jquery-1.11.3.min.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/js/jquery.cloudinary.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/js/parse-1.5.0.min.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/js/parse/.DS_Store
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/js/parse/.parse-upload.js.swp
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/js/parse/parse-load-feed-school.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/js/parse/parse-login.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/js/parse/parse-session-index.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/js/parse/parse-session.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/js/parse/parse-upload.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/LICENSE
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/README.md
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/css/materialize.css
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/css/materialize.min.css
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/material-design-icons/LICENSE.txt
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/material-design-icons/Material-Design-Icons.eot
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/material-design-icons/Material-Design-Icons.svg
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/material-design-icons/Material-Design-Icons.ttf
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/material-design-icons/Material-Design-Icons.woff
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/material-design-icons/Material-Design-Icons.woff2
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Bold.ttf
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Bold.woff
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Bold.woff2
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Light.ttf
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Light.woff
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Light.woff2
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Medium.ttf
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Medium.woff
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Medium.woff2
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Regular.ttf
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Regular.woff
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Regular.woff2
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Thin.ttf
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Thin.woff
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Thin.woff2
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/js/materialize.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/materialize/js/materialize.min.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/.DS_Store
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/.pgbomit
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/.DS_Store
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/android/.DS_Store
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/android/icon-36-ldpi.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/android/icon-48-mdpi.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/android/icon-72-hdpi.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/android/icon-96-xhdpi.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/bada-wac/.DS_Store
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/bada-wac/icon-48-type5.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/bada-wac/icon-50-type3.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/bada-wac/icon-80-type4.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/bada/icon-128.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/blackberry/icon-80.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/ios/.DS_Store
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/ios/icon-57-2x.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/ios/icon-57.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/ios/icon-72-2x.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/ios/icon-72.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/tizen/icon-128.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/webos/icon-64.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/windows-phone/icon-173-tile.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/windows-phone/icon-48.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/icon/windows-phone/icon-62-tile.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/.DS_Store
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/android/.DS_Store
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/android/screen-hdpi-landscape.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/android/screen-hdpi-portrait.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/android/screen-ldpi-landscape.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/android/screen-ldpi-portrait.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/android/screen-mdpi-landscape.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/android/screen-mdpi-portrait.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/android/screen-xhdpi-landscape.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/android/screen-xhdpi-portrait.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/bada-wac/screen-type3.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/bada-wac/screen-type4.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/bada-wac/screen-type5.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/bada/screen-portrait.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/blackberry/screen-225.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/ios/.DS_Store
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/ios/screen-ipad-landscape-2x.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/ios/screen-ipad-landscape.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/ios/screen-ipad-portrait-2x.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/ios/screen-ipad-portrait.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/ios/screen-iphone-landscape-2x.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/ios/screen-iphone-landscape.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/ios/screen-iphone-portrait-2x.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/ios/screen-iphone-portrait-568h-2x.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/ios/screen-iphone-portrait.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/tizen/README.md
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/webos/screen-64.png
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/res/screen/windows-phone/screen-portrait.jpg
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/scripts/main.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/spec/.DS_Store
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/spec/helper.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/spec/index.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/spec/lib/jasmine-1.2.0/MIT.LICENSE
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/spec/lib/jasmine-1.2.0/jasmine-html.js
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/spec/lib/jasmine-1.2.0/jasmine.css
+A	Dropbox/College/Freshman/Research/stuff/www 2.53.51 PM/spec/lib/jasmine-1.2.0/jasmine.js
+A	LICENSE
+U	README.md
+Pull is not possible because you have unmerged files.
+Please, fix them up in the work tree, and then use 'git add/rm <file>'
+as appropriate to mark resolution, or use 'git commit -a'.
+dhcp-10-5-10-231:Research joeazar$ git add .
+dhcp-10-5-10-231:Research joeazar$ git commit -m "init"
+U	README.md
+error: 'commit' is not possible because you have unmerged files.
+hint: Fix them up in the work tree,
+hint: and then use 'git add/rm <file>' as
+hint: appropriate to mark resolution and make a commit,
+hint: or use 'git commit -a'.
+fatal: Exiting because of an unresolved conflict.
+dhcp-10-5-10-231:Research joeazar$ git commit -m "init"
+U	README.md
+error: 'commit' is not possible because you have unmerged files.
+hint: Fix them up in the work tree,
+hint: and then use 'git add/rm <file>' as
+hint: appropriate to mark resolution and make a commit,
+hint: or use 'git commit -a'.
+fatal: Exiting because of an unresolved conflict.
+dhcp-10-5-10-231:Research joeazar$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+
+Changes to be committed:
+
+	modified:   .DS_Store
+	new file:   stuff/.DS_Store
+	new file:   stuff/LICENSE
+	new file:   stuff/README 2.53.51 PM.md
+	new file:   stuff/config 2.53.51 PM.xml
+	new file:   stuff/hooks 2.53.51 PM/README.md
+	new file:   stuff/plugins 2.53.51 PM/fetch.json
+	new file:   stuff/www 2.53.51 PM/.DS_Store
+	new file:   stuff/www 2.53.51 PM/cordova.android.js
+	new file:   stuff/www 2.53.51 PM/cordova.ios.js
+	new file:   stuff/www 2.53.51 PM/cordova.wp8.js
+	new file:   stuff/www 2.53.51 PM/css/index.css
+	new file:   stuff/www 2.53.51 PM/history.html
+	new file:   stuff/www 2.53.51 PM/icon.png
+	new file:   stuff/www 2.53.51 PM/img/.DS_Store
+	new file:   stuff/www 2.53.51 PM/img/MoLe.svg
+	new file:   stuff/www 2.53.51 PM/img/MoLe2.svg
+	new file:   stuff/www 2.53.51 PM/img/MoLe3.svg
+	new file:   stuff/www 2.53.51 PM/img/logo.png
+	new file:   stuff/www 2.53.51 PM/index.html
+	new file:   stuff/www 2.53.51 PM/js/.DS_Store
+	new file:   stuff/www 2.53.51 PM/js/Chart.js
+	new file:   stuff/www 2.53.51 PM/js/index.js
+	new file:   stuff/www 2.53.51 PM/js/jquery-1.11.3.min.js
+	new file:   stuff/www 2.53.51 PM/js/jquery.cloudinary.js
+	new file:   stuff/www 2.53.51 PM/js/parse-1.5.0.min.js
+	new file:   stuff/www 2.53.51 PM/js/parse/.DS_Store
+	new file:   stuff/www 2.53.51 PM/js/parse/.parse-upload.js.swp
+	new file:   stuff/www 2.53.51 PM/js/parse/parse-load-feed-school.js
+	new file:   stuff/www 2.53.51 PM/js/parse/parse-login.js
+	new file:   stuff/www 2.53.51 PM/js/parse/parse-session-index.js
+	new file:   stuff/www 2.53.51 PM/js/parse/parse-session.js
+	new file:   stuff/www 2.53.51 PM/js/parse/parse-upload.js
+	new file:   stuff/www 2.53.51 PM/materialize/LICENSE
+	new file:   stuff/www 2.53.51 PM/materialize/README.md
+	new file:   stuff/www 2.53.51 PM/materialize/css/materialize.css
+	new file:   stuff/www 2.53.51 PM/materialize/css/materialize.min.css
+	new file:   stuff/www 2.53.51 PM/materialize/font/material-design-icons/LICENSE.txt
+	new file:   stuff/www 2.53.51 PM/materialize/font/material-design-icons/Material-Design-Icons.eot
+	new file:   stuff/www 2.53.51 PM/materialize/font/material-design-icons/Material-Design-Icons.svg
+	new file:   stuff/www 2.53.51 PM/materialize/font/material-design-icons/Material-Design-Icons.ttf
+	new file:   stuff/www 2.53.51 PM/materialize/font/material-design-icons/Material-Design-Icons.woff
+	new file:   stuff/www 2.53.51 PM/materialize/font/material-design-icons/Material-Design-Icons.woff2
+	new file:   stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Bold.ttf
+	new file:   stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Bold.woff
+	new file:   stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Bold.woff2
+	new file:   stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Light.ttf
+	new file:   stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Light.woff
+	new file:   stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Light.woff2
+	new file:   stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Medium.ttf
+	new file:   stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Medium.woff
+	new file:   stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Medium.woff2
+	new file:   stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Regular.ttf
+	new file:   stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Regular.woff
+	new file:   stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Regular.woff2
+	new file:   stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Thin.ttf
+	new file:   stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Thin.woff
+	new file:   stuff/www 2.53.51 PM/materialize/font/roboto/Roboto-Thin.woff2
+	new file:   stuff/www 2.53.51 PM/materialize/js/materialize.js
+	new file:   stuff/www 2.53.51 PM/materialize/js/materialize.min.js
+	new file:   stuff/www 2.53.51 PM/res/.DS_Store
+	new file:   stuff/www 2.53.51 PM/res/.pgbomit
+	new file:   stuff/www 2.53.51 PM/res/icon/.DS_Store
+	new file:   stuff/www 2.53.51 PM/res/icon/android/.DS_Store
+	new file:   stuff/www 2.53.51 PM/res/icon/android/icon-36-ldpi.png
+	new file:   stuff/www 2.53.51 PM/res/icon/android/icon-48-mdpi.png
+	new file:   stuff/www 2.53.51 PM/res/icon/android/icon-72-hdpi.png
+	new file:   stuff/www 2.53.51 PM/res/icon/android/icon-96-xhdpi.png
+	new file:   stuff/www 2.53.51 PM/res/icon/bada-wac/.DS_Store
+	new file:   stuff/www 2.53.51 PM/res/icon/bada-wac/icon-48-type5.png
+	new file:   stuff/www 2.53.51 PM/res/icon/bada-wac/icon-50-type3.png
+	new file:   stuff/www 2.53.51 PM/res/icon/bada-wac/icon-80-type4.png
+	new file:   stuff/www 2.53.51 PM/res/icon/bada/icon-128.png
+	new file:   stuff/www 2.53.51 PM/res/icon/blackberry/icon-80.png
+	new file:   stuff/www 2.53.51 PM/res/icon/ios/.DS_Store
+	new file:   stuff/www 2.53.51 PM/res/icon/ios/icon-57-2x.png
+	new file:   stuff/www 2.53.51 PM/res/icon/ios/icon-57.png
+	new file:   stuff/www 2.53.51 PM/res/icon/ios/icon-72-2x.png
+	new file:   stuff/www 2.53.51 PM/res/icon/ios/icon-72.png
+	new file:   stuff/www 2.53.51 PM/res/icon/tizen/icon-128.png
+	new file:   stuff/www 2.53.51 PM/res/icon/webos/icon-64.png
+	new file:   stuff/www 2.53.51 PM/res/icon/windows-phone/icon-173-tile.png
+	new file:   stuff/www 2.53.51 PM/res/icon/windows-phone/icon-48.png
+	new file:   stuff/www 2.53.51 PM/res/icon/windows-phone/icon-62-tile.png
+	new file:   stuff/www 2.53.51 PM/res/screen/.DS_Store
+	new file:   stuff/www 2.53.51 PM/res/screen/android/.DS_Store
+	new file:   stuff/www 2.53.51 PM/res/screen/android/screen-hdpi-landscape.png
+	new file:   stuff/www 2.53.51 PM/res/screen/android/screen-hdpi-portrait.png
+	new file:   stuff/www 2.53.51 PM/res/screen/android/screen-ldpi-landscape.png
+	new file:   stuff/www 2.53.51 PM/res/screen/android/screen-ldpi-portrait.png
+	new file:   stuff/www 2.53.51 PM/res/screen/android/screen-mdpi-landscape.png
+	new file:   stuff/www 2.53.51 PM/res/screen/android/screen-mdpi-portrait.png
+	new file:   stuff/www 2.53.51 PM/res/screen/android/screen-xhdpi-landscape.png
+	new file:   stuff/www 2.53.51 PM/res/screen/android/screen-xhdpi-portrait.png
+	new file:   stuff/www 2.53.51 PM/res/screen/bada-wac/screen-type3.png
+	new file:   stuff/www 2.53.51 PM/res/screen/bada-wac/screen-type4.png
+	new file:   stuff/www 2.53.51 PM/res/screen/bada-wac/screen-type5.png
+	new file:   stuff/www 2.53.51 PM/res/screen/bada/screen-portrait.png
+	new file:   stuff/www 2.53.51 PM/res/screen/blackberry/screen-225.png
+	new file:   stuff/www 2.53.51 PM/res/screen/ios/.DS_Store
+	new file:   stuff/www 2.53.51 PM/res/screen/ios/screen-ipad-landscape-2x.png
+	new file:   stuff/www 2.53.51 PM/res/screen/ios/screen-ipad-landscape.png
+	new file:   stuff/www 2.53.51 PM/res/screen/ios/screen-ipad-portrait-2x.png
+	new file:   stuff/www 2.53.51 PM/res/screen/ios/screen-ipad-portrait.png
+	new file:   stuff/www 2.53.51 PM/res/screen/ios/screen-iphone-landscape-2x.png
+	new file:   stuff/www 2.53.51 PM/res/screen/ios/screen-iphone-landscape.png
+	new file:   stuff/www 2.53.51 PM/res/screen/ios/screen-iphone-portrait-2x.png
+	new file:   stuff/www 2.53.51 PM/res/screen/ios/screen-iphone-portrait-568h-2x.png
+	new file:   stuff/www 2.53.51 PM/res/screen/ios/screen-iphone-portrait.png
+	new file:   stuff/www 2.53.51 PM/res/screen/tizen/README.md
+	new file:   stuff/www 2.53.51 PM/res/screen/webos/screen-64.png
+	new file:   stuff/www 2.53.51 PM/res/screen/windows-phone/screen-portrait.jpg
+	new file:   stuff/www 2.53.51 PM/scripts/main.js
+	new file:   stuff/www 2.53.51 PM/spec/.DS_Store
+	new file:   stuff/www 2.53.51 PM/spec/helper.js
+	new file:   stuff/www 2.53.51 PM/spec/index.js
+	new file:   stuff/www 2.53.51 PM/spec/lib/jasmine-1.2.0/MIT.LICENSE
+	new file:   stuff/www 2.53.51 PM/spec/lib/jasmine-1.2.0/jasmine-html.js
+	new file:   stuff/www 2.53.51 PM/spec/lib/jasmine-1.2.0/jasmine.css
+	new file:   stuff/www 2.53.51 PM/spec/lib/jasmine-1.2.0/jasmine.js
+	new file:   ../../../../LICENSE
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+	both added:      ../../../../README.md
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+	modified:   History-Today-Bermuda (untracked content)
+	deleted:    ../../../../about.html
+	deleted:    ../../../../css/ajax-loader.gif
+	deleted:    ../../../../css/animate.css
+	deleted:    ../../../../css/bootstrap-theme.css
+	deleted:    ../../../../css/bootstrap-theme.css.map
+	deleted:    ../../../../css/bootstrap-theme.min.css
+	deleted:    ../../../../css/bootstrap.css
+	deleted:    ../../../../css/bootstrap.css.map
+	deleted:    ../../../../css/bootstrap.min.css
+	deleted:    ../../../../css/font-awesome.min.css
+	deleted:    ../../../../css/freeze.css
+	deleted:    ../../../../css/login-style.css
+	deleted:    ../../../../css/slick.css
+	deleted:    ../../../../css/styles.css
+	deleted:    ../../../../favicon.png
+	deleted:    ../../../../fonts/FontAwesome.otf
+	deleted:    ../../../../fonts/flexslider-icon.eot
+	deleted:    ../../../../fonts/flexslider-icon.svg
+	deleted:    ../../../../fonts/flexslider-icon.ttf
+	deleted:    ../../../../fonts/flexslider-icon.woff
+	deleted:    ../../../../fonts/fontawesome-webfont.eot
+	deleted:    ../../../../fonts/fontawesome-webfont.svg
+	deleted:    ../../../../fonts/fontawesome-webfont.ttf
+	deleted:    ../../../../fonts/fontawesome-webfont.woff
+	deleted:    ../../../../fonts/glyphicons-halflings-regular.eot
+	deleted:    ../../../../fonts/glyphicons-halflings-regular.svg
+	deleted:    ../../../../fonts/glyphicons-halflings-regular.ttf
+	deleted:    ../../../../fonts/glyphicons-halflings-regular.woff
+	deleted:    ../../../../fonts/glyphicons-halflings-regular.woff2
+	deleted:    ../../../../img/Thumbs.db
+	deleted:    ../../../../img/freeze/Slides/Thumbs.db
+	deleted:    ../../../../img/freeze/Slides/freeze-slide2.png
+	deleted:    ../../../../img/freeze/Slides/freeze.png
+	deleted:    ../../../../img/freeze/Slides/hand-freeze.png
+	deleted:    ../../../../img/freeze/Thumbs.db
+	deleted:    ../../../../img/freeze/bk-freeze-ga.jpg
+	deleted:    ../../../../img/freeze/bk-freeze.jpg
+	deleted:    ../../../../img/freeze/freeze-angled2.png
+	deleted:    ../../../../img/freeze/iphone-freeze.png
+	deleted:    ../../../../img/freeze/logo.png
+	deleted:    ../../../../img/freeze/screens/Thumbs.db
+	deleted:    ../../../../img/freeze/screens/calendar.jpg
+	deleted:    ../../../../img/freeze/screens/menu.jpg
+	deleted:    ../../../../img/freeze/screens/options.jpg
+	deleted:    ../../../../img/freeze/screens/profile.jpg
+	deleted:    ../../../../img/freeze/screens/sales.jpg
+	deleted:    ../../../../img/freeze/screens/signup.jpg
+	deleted:    ../../../../img/freeze/screens/weather.jpg
+	deleted:    ../../../../img/transparent.png
+	deleted:    ../../../../index.html
+	deleted:    ../../../../js/bootstrap.js
+	deleted:    ../../../../js/bootstrap.min.js
+	deleted:    ../../../../js/jquery-1.11.1.min.js
+	deleted:    ../../../../js/jquery-1.11.1.min.map
+	deleted:    ../../../../js/jquery-1.11.3.min.js
+	deleted:    ../../../../js/less-1.7.0.min.js
+	deleted:    ../../../../js/modernizr.custom.32033.js
+	deleted:    ../../../../js/npm.js
+	deleted:    ../../../../js/placeholdem.min.js
+	deleted:    ../../../../js/respond.min.js
+	deleted:    ../../../../js/rs-plugin/.DS_Store
+	deleted:    ../../../../js/rs-plugin/assets/arrow_large_left.png
+	deleted:    ../../../../js/rs-plugin/assets/arrow_large_right.png
+	deleted:    ../../../../js/rs-plugin/assets/arrow_left.png
+	deleted:    ../../../../js/rs-plugin/assets/arrow_left2.png
+	deleted:    ../../../../js/rs-plugin/assets/arrow_right.png
+	deleted:    ../../../../js/rs-plugin/assets/arrow_right2.png
+	deleted:    ../../../../js/rs-plugin/assets/arrowleft.png
+	deleted:    ../../../../js/rs-plugin/assets/arrowright.png
+	deleted:    ../../../../js/rs-plugin/assets/arrows.psd
+	deleted:    ../../../../js/rs-plugin/assets/black50.png
+	deleted:    ../../../../js/rs-plugin/assets/boxed_bgtile.png
+	deleted:    ../../../../js/rs-plugin/assets/bullet.png
+	deleted:    ../../../../js/rs-plugin/assets/bullet_boxed.png
+	deleted:    ../../../../js/rs-plugin/assets/bullets.png
+	deleted:    ../../../../js/rs-plugin/assets/bullets.psd
+	deleted:    ../../../../js/rs-plugin/assets/bullets2.png
+	deleted:    ../../../../js/rs-plugin/assets/coloredbg.png
+	deleted:    ../../../../js/rs-plugin/assets/grain.png
+	deleted:    ../../../../js/rs-plugin/assets/gridtile.png
+	deleted:    ../../../../js/rs-plugin/assets/gridtile_3x3.png
+	deleted:    ../../../../js/rs-plugin/assets/gridtile_3x3_white.png
+	deleted:    ../../../../js/rs-plugin/assets/gridtile_white.png
+	deleted:    ../../../../js/rs-plugin/assets/large_left.png
+	deleted:    ../../../../js/rs-plugin/assets/large_right.png
+	deleted:    ../../../../js/rs-plugin/assets/loader.gif
+	deleted:    ../../../../js/rs-plugin/assets/loader2.gif
+	deleted:    ../../../../js/rs-plugin/assets/navigdots.png
+	deleted:    ../../../../js/rs-plugin/assets/navigdots_bgtile.png
+	deleted:    ../../../../js/rs-plugin/assets/shadow1.png
+	deleted:    ../../../../js/rs-plugin/assets/shadow2.png
+	deleted:    ../../../../js/rs-plugin/assets/shadow3.png
+	deleted:    ../../../../js/rs-plugin/assets/small_arrows.psd
+	deleted:    ../../../../js/rs-plugin/assets/small_left.png
+	deleted:    ../../../../js/rs-plugin/assets/small_left_boxed.png
+	deleted:    ../../../../js/rs-plugin/assets/small_right.png
+	deleted:    ../../../../js/rs-plugin/assets/small_right_boxed.png
+	deleted:    ../../../../js/rs-plugin/assets/timer.png
+	deleted:    ../../../../js/rs-plugin/assets/timerdot.png
+	deleted:    ../../../../js/rs-plugin/assets/transparent.jpg
+	deleted:    ../../../../js/rs-plugin/assets/white50.png
+	deleted:    ../../../../js/rs-plugin/css/.DS_Store
+	deleted:    ../../../../js/rs-plugin/css/settings-ie8.css
+	deleted:    ../../../../js/rs-plugin/css/settings.css
+	deleted:    ../../../../js/rs-plugin/font/revicons.eot
+	deleted:    ../../../../js/rs-plugin/font/revicons.svg
+	deleted:    ../../../../js/rs-plugin/font/revicons.ttf
+	deleted:    ../../../../js/rs-plugin/font/revicons.woff
+	deleted:    ../../../../js/rs-plugin/images/decor_inside.png
+	deleted:    ../../../../js/rs-plugin/images/decor_inside_white.png
+	deleted:    ../../../../js/rs-plugin/images/decor_testimonial.png
+	deleted:    ../../../../js/rs-plugin/images/gradient/g30.png
+	deleted:    ../../../../js/rs-plugin/images/gradient/g40.png
+	deleted:    ../../../../js/rs-plugin/js/.DS_Store
+	deleted:    ../../../../js/rs-plugin/js/jquery.themepunch.plugins.min.js
+	deleted:    ../../../../js/rs-plugin/js/jquery.themepunch.revolution.js
+	deleted:    ../../../../js/rs-plugin/js/jquery.themepunch.revolution.min.js
+	deleted:    ../../../../js/scripts.js
+	deleted:    ../../../../js/slick.min.js
+	deleted:    ../../../../js/waypoints.min.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../../../../.CFUserTextEncoding
+	../../../../.DS_Store
+	../../../../.Trash/
+	../../../../.Xauthority
+	../../../../.android/
+	../../../../.atom/
+	../../../../.bash_history
+	../../../../.bash_profile
+	../../../../.cache/
+	../../../../.config/
+	../../../../.cups/
+	../../../../.dropbox/
+	../../../../.gitconfig
+	../../../../.gradle/
+	../../../../.hwid
+	../../../../.idlerc/
+	../../../../.local/
+	../../../../.matplotlib/
+	../../../../.meteor/
+	../../../../.meteorsession
+	../../../../.node-gyp/
+	../../../../.npm/
+	../../../../.pip/
+	../../../../.rnd
+	../../../../.ssh/
+	../../../../.vim/
+	../../../../.viminfo
+	../../../../.vimrc
+	../../../../Applications/
+	../../../../Desktop/
+	../../../../Documents/
+	../../../../Downloads/
+	../../../.DS_Store
+	../../../.dropbox
+	../../../.dropbox.cache/
+	../../../Camera Uploads/
+	../../.DS_Store
+	../.DS_Store
+	../CSC 172/
+	../HIS 100/
+	../MTH 150/
+	../TR-Sched.png
+	../WRT 105/
+	../../Joe Azar-Williams's Resume.pdf
+	../../Readings/
+	../../../Demeter - Joe/
+	../../../Getting Started.pdf
+	"../../../Icon\r"
+	../../../OneNote (flatflop@msn.com)/
+	../../../Photos/
+	../../../Prom/
+	../../../Writing/
+	../../../modInfo/
+	../../../../Jts/
+	../../../../Library/
+	../../../../MEGA/
+	../../../../Movies/
+	../../../../Music/
+	../../../../Pictures/
+	../../../../Public/
+	../../../../VirtualBox VMs/
+
+dhcp-10-5-10-231:Research joeazar$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+dhcp-10-5-10-231:Research joeazar$ cd HistoryTodayBermuda
+-bash: cd: HistoryTodayBermuda: No such file or directory
+dhcp-10-5-10-231:Research joeazar$ cd History-Today-Bermuda
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ git pull
+Already up-to-date.
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ git add .
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ git commit -m "init"
+[master e9203f3] init
+ 120 files changed, 29546 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100755 config.xml
+ create mode 100755 hooks/README.md
+ create mode 100755 plugins/fetch.json
+ create mode 100755 www/.DS_Store
+ create mode 100755 www/cordova.android.js
+ create mode 100755 www/cordova.ios.js
+ create mode 100755 www/cordova.wp8.js
+ create mode 100755 www/css/index.css
+ create mode 100755 www/history.html
+ create mode 100755 www/icon.png
+ create mode 100755 www/img/.DS_Store
+ create mode 100755 www/img/MoLe.svg
+ create mode 100755 www/img/MoLe2.svg
+ create mode 100755 www/img/MoLe3.svg
+ create mode 100755 www/img/logo.png
+ create mode 100755 www/index.html
+ create mode 100755 www/js/.DS_Store
+ create mode 100755 www/js/Chart.js
+ create mode 100755 www/js/index.js
+ create mode 100755 www/js/jquery-1.11.3.min.js
+ create mode 100755 www/js/jquery.cloudinary.js
+ create mode 100755 www/js/parse-1.5.0.min.js
+ create mode 100755 www/js/parse/.DS_Store
+ create mode 100755 www/js/parse/.parse-upload.js.swp
+ create mode 100755 www/js/parse/parse-load-feed-school.js
+ create mode 100755 www/js/parse/parse-login.js
+ create mode 100755 www/js/parse/parse-session-index.js
+ create mode 100755 www/js/parse/parse-session.js
+ create mode 100755 www/js/parse/parse-upload.js
+ create mode 100644 www/materialize/.DS_Store
+ create mode 100755 www/materialize/LICENSE
+ create mode 100755 www/materialize/README.md
+ create mode 100755 www/materialize/css/materialize.css
+ create mode 100755 www/materialize/css/materialize.min.css
+ create mode 100644 www/materialize/font/.DS_Store
+ create mode 100755 www/materialize/font/material-design-icons/LICENSE.txt
+ create mode 100755 www/materialize/font/material-design-icons/Material-Design-Icons.eot
+ create mode 100755 www/materialize/font/material-design-icons/Material-Design-Icons.svg
+ create mode 100755 www/materialize/font/material-design-icons/Material-Design-Icons.ttf
+ create mode 100755 www/materialize/font/material-design-icons/Material-Design-Icons.woff
+ create mode 100755 www/materialize/font/material-design-icons/Material-Design-Icons.woff2
+ create mode 100755 www/materialize/font/roboto/Roboto-Bold.ttf
+ create mode 100755 www/materialize/font/roboto/Roboto-Bold.woff
+ create mode 100755 www/materialize/font/roboto/Roboto-Bold.woff2
+ create mode 100755 www/materialize/font/roboto/Roboto-Light.ttf
+ create mode 100755 www/materialize/font/roboto/Roboto-Light.woff
+ create mode 100755 www/materialize/font/roboto/Roboto-Light.woff2
+ create mode 100755 www/materialize/font/roboto/Roboto-Medium.ttf
+ create mode 100755 www/materialize/font/roboto/Roboto-Medium.woff
+ create mode 100755 www/materialize/font/roboto/Roboto-Medium.woff2
+ create mode 100755 www/materialize/font/roboto/Roboto-Regular.ttf
+ create mode 100755 www/materialize/font/roboto/Roboto-Regular.woff
+ create mode 100755 www/materialize/font/roboto/Roboto-Regular.woff2
+ create mode 100755 www/materialize/font/roboto/Roboto-Thin.ttf
+ create mode 100755 www/materialize/font/roboto/Roboto-Thin.woff
+ create mode 100755 www/materialize/font/roboto/Roboto-Thin.woff2
+ create mode 100755 www/materialize/js/materialize.js
+ create mode 100755 www/materialize/js/materialize.min.js
+ create mode 100644 www/res/.DS_Store
+ create mode 100755 www/res/.pgbomit
+ create mode 100644 www/res/icon/.DS_Store
+ create mode 100644 www/res/icon/android/.DS_Store
+ create mode 100755 www/res/icon/android/icon-36-ldpi.png
+ create mode 100755 www/res/icon/android/icon-48-mdpi.png
+ create mode 100755 www/res/icon/android/icon-72-hdpi.png
+ create mode 100755 www/res/icon/android/icon-96-xhdpi.png
+ create mode 100644 www/res/icon/bada-wac/.DS_Store
+ create mode 100755 www/res/icon/bada-wac/icon-48-type5.png
+ create mode 100755 www/res/icon/bada-wac/icon-50-type3.png
+ create mode 100755 www/res/icon/bada-wac/icon-80-type4.png
+ create mode 100755 www/res/icon/bada/icon-128.png
+ create mode 100755 www/res/icon/blackberry/icon-80.png
+ create mode 100644 www/res/icon/ios/.DS_Store
+ create mode 100755 www/res/icon/ios/icon-57-2x.png
+ create mode 100755 www/res/icon/ios/icon-57.png
+ create mode 100755 www/res/icon/ios/icon-72-2x.png
+ create mode 100755 www/res/icon/ios/icon-72.png
+ create mode 100755 www/res/icon/tizen/icon-128.png
+ create mode 100755 www/res/icon/webos/icon-64.png
+ create mode 100755 www/res/icon/windows-phone/icon-173-tile.png
+ create mode 100755 www/res/icon/windows-phone/icon-48.png
+ create mode 100755 www/res/icon/windows-phone/icon-62-tile.png
+ create mode 100644 www/res/screen/.DS_Store
+ create mode 100644 www/res/screen/android/.DS_Store
+ create mode 100755 www/res/screen/android/screen-hdpi-landscape.png
+ create mode 100755 www/res/screen/android/screen-hdpi-portrait.png
+ create mode 100755 www/res/screen/android/screen-ldpi-landscape.png
+ create mode 100755 www/res/screen/android/screen-ldpi-portrait.png
+ create mode 100755 www/res/screen/android/screen-mdpi-landscape.png
+ create mode 100755 www/res/screen/android/screen-mdpi-portrait.png
+ create mode 100755 www/res/screen/android/screen-xhdpi-landscape.png
+ create mode 100755 www/res/screen/android/screen-xhdpi-portrait.png
+ create mode 100755 www/res/screen/bada-wac/screen-type3.png
+ create mode 100755 www/res/screen/bada-wac/screen-type4.png
+ create mode 100755 www/res/screen/bada-wac/screen-type5.png
+ create mode 100755 www/res/screen/bada/screen-portrait.png
+ create mode 100755 www/res/screen/blackberry/screen-225.png
+ create mode 100644 www/res/screen/ios/.DS_Store
+ create mode 100755 www/res/screen/ios/screen-ipad-landscape-2x.png
+ create mode 100755 www/res/screen/ios/screen-ipad-landscape.png
+ create mode 100755 www/res/screen/ios/screen-ipad-portrait-2x.png
+ create mode 100755 www/res/screen/ios/screen-ipad-portrait.png
+ create mode 100755 www/res/screen/ios/screen-iphone-landscape-2x.png
+ create mode 100755 www/res/screen/ios/screen-iphone-landscape.png
+ create mode 100755 www/res/screen/ios/screen-iphone-portrait-2x.png
+ create mode 100755 www/res/screen/ios/screen-iphone-portrait-568h-2x.png
+ create mode 100755 www/res/screen/ios/screen-iphone-portrait.png
+ create mode 100755 www/res/screen/tizen/README.md
+ create mode 100755 www/res/screen/webos/screen-64.png
+ create mode 100755 www/res/screen/windows-phone/screen-portrait.jpg
+ create mode 100755 www/scripts/main.js
+ create mode 100644 www/spec/.DS_Store
+ create mode 100755 www/spec/helper.js
+ create mode 100755 www/spec/index.js
+ create mode 100644 www/spec/lib/.DS_Store
+ create mode 100755 www/spec/lib/jasmine-1.2.0/MIT.LICENSE
+ create mode 100755 www/spec/lib/jasmine-1.2.0/jasmine-html.js
+ create mode 100755 www/spec/lib/jasmine-1.2.0/jasmine.css
+ create mode 100755 www/spec/lib/jasmine-1.2.0/jasmine.js
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ git push
+Counting objects: 154, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (138/138), done.
+Writing objects: 100% (153/153), 2.46 MiB | 1.97 MiB/s, done.
+Total 153 (delta 26), reused 0 (delta 0)
+To https://github.com/JoeAzar/History-Today-Bermuda.git
+   e617c35..e9203f3  master -> master
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ git pull
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/JoeAzar/History-Today-Bermuda
+   e9203f3..b6544d3  master     -> origin/master
+Updating e9203f3..b6544d3
+Fast-forward
+ config.xml | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ phonegap create History-Today-Bermuda
+Creating a new cordova project.
+
+Downloading hello-world-template library for www...
+
+Download complete
+
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ phonegap serve
+[phonegap] starting app server...
+[phonegap] listening on 10.5.10.231:3000
+[phonegap] 
+[phonegap] ctrl-c to stop the server
+[phonegap] 
+^C  
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   .DS_Store
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	History-Today-Bermuda/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ phonegap serve
+[phonegap] starting app server...
+[phonegap] listening on 10.5.10.231:3000
+[phonegap] 
+[phonegap] ctrl-c to stop the server
+[phonegap] 
+^C
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ phonegap serve
+[phonegap] starting app server...
+[phonegap] listening on 192.168.43.111:3000
+[phonegap] 
+[phonegap] ctrl-c to stop the server
+[phonegap] 
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443986567318-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443986567652-1&sid=1eLHlB_C24Ss2y1GAAAA
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443986567677-2&sid=1eLHlB_C24Ss2y1GAAAA
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443986888546-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443986890581-1&sid=zoc5REDuVlBKfTHvAAAB
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443986890714-2&sid=zoc5REDuVlBKfTHvAAAB
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443986928978-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443986930685-1&sid=q_5JSkU3l29Ol_lmAAAC
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443986931065-2&sid=q_5JSkU3l29Ol_lmAAAC
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443987192050-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443987192194-1&sid=rHIxPPGGn4sJZd2eAAAD
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443987192213-2&sid=rHIxPPGGn4sJZd2eAAAD
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443987227321-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443987227462-1&sid=nm4zbLfjHR5Hp3MfAAAE
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443987227480-2&sid=nm4zbLfjHR5Hp3MfAAAE
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443987260946-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443987261158-1&sid=k19ES5UjoTtJEoOxAAAF
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443987261174-2&sid=k19ES5UjoTtJEoOxAAAF
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443987340323-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443987342440-1&sid=m67VfZHSpmVkX-LOAAAG
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443987342522-2&sid=m67VfZHSpmVkX-LOAAAG
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] 400 /socket.io/?EIO=2&transport=polling&t=1443987526070-3&sid=m67VfZHSpmVkX-LOAAAG
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443987527270-4
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443987527470-5&sid=N5eAS1NXDRT_B7jWAAAH
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443987527507-6&sid=N5eAS1NXDRT_B7jWAAAH
+[phonegap] [console.log] exception firing pause event from native
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] [console.log] exception firing resume event from native
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988057405-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988057865-1&sid=bWQuUxpt68oaX7FLAAAI
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988057900-2&sid=bWQuUxpt68oaX7FLAAAI
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988264614-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988264906-1&sid=v0bY247uONnARDFfAAAJ
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988265166-2&sid=v0bY247uONnARDFfAAAJ
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988336541-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988338375-1&sid=35Q4iiYe1jsAkaxZAAAK
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988338455-2&sid=35Q4iiYe1jsAkaxZAAAK
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988381994-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988383689-1&sid=P5PRDTf5mErPbbF4AAAL
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988383916-2&sid=P5PRDTf5mErPbbF4AAAL
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988417615-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988417982-1&sid=I0IY4dAdx4t2pxTeAAAM
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988418017-2&sid=I0IY4dAdx4t2pxTeAAAM
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988590323-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988590634-1&sid=RTyuSCPfCUbDWklOAAAN
+[phonegap] [console.log] 43.1288217 -77.6280522 null
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988593625-2&sid=RTyuSCPfCUbDWklOAAAN
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443988596106-3&sid=RTyuSCPfCUbDWklOAAAN
+[phonegap] [console.log] exception firing pause event from native
+^C      
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ phonegap serve
+[phonegap] starting app server...
+[phonegap] listening on 10.2.38.20:3000
+[phonegap] 
+[phonegap] ctrl-c to stop the server
+[phonegap] 
+^C
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ phonegap serve
+[phonegap] starting app server...
+[phonegap] listening on 192.168.43.111:3000
+[phonegap] 
+[phonegap] ctrl-c to stop the server
+[phonegap] 
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991123885-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991124250-1&sid=7fx47VfdTdjLu0XrAAAA
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991124287-2&sid=7fx47VfdTdjLu0XrAAAA
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991165316-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991165700-1&sid=4Fr-HZ53eFwUZ-wSAAAB
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991165780-2&sid=4Fr-HZ53eFwUZ-wSAAAB
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] [console.log] 43.1288664 -77.6302082 null
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991275140-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991275331-1&sid=t5NnH9T_VLC-vY2pAAAC
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991275355-2&sid=t5NnH9T_VLC-vY2pAAAC
+[phonegap] [console.log] 43.1288664 -77.6302082 null
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991619076-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991619415-1&sid=BDqvOqtdHaQJXPHCAAAD
+[phonegap] [console.log] 43.1288664 -77.6302082 null
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991619453-2&sid=BDqvOqtdHaQJXPHCAAAD
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991621781-3&sid=BDqvOqtdHaQJXPHCAAAD
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991637900-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991638249-1&sid=UM4BszJlpuBUJ76HAAAE
+[phonegap] [console.log] 43.1288664 -77.6302082 null
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991638294-2&sid=UM4BszJlpuBUJ76HAAAE
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991640506-3&sid=UM4BszJlpuBUJ76HAAAE
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991939216-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991939697-1&sid=sjcDotv6Rxxd88n6AAAF
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443991939739-2&sid=sjcDotv6Rxxd88n6AAAF
+[phonegap] [console.log] 43.1277653 -77.6275363 null
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992010304-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992010632-1&sid=6FKGnqxZmmtV-NlpAAAG
+[phonegap] [console.log] 43.1277653 -77.6275363 null
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992010663-2&sid=6FKGnqxZmmtV-NlpAAAG
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992010788-3&sid=6FKGnqxZmmtV-NlpAAAG
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992024189-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992024379-1&sid=Gp1Un_0613isHfHcAAAH
+[phonegap] [console.log] 43.1277653 -77.6275363 null
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992024411-2&sid=Gp1Un_0613isHfHcAAAH
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992024423-3&sid=Gp1Un_0613isHfHcAAAH
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992037547-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992037724-1&sid=Jlia2-y9EB9HTu1-AAAI
+[phonegap] [console.log] 43.1277653 -77.6275363 null
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992037750-2&sid=Jlia2-y9EB9HTu1-AAAI
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992037763-3&sid=Jlia2-y9EB9HTu1-AAAI
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992366048-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992366276-1&sid=QOc1bi_LcEEyfpzNAAAJ
+[phonegap] [console.log] 43.1277653 -77.6275363 null
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992366308-2&sid=QOc1bi_LcEEyfpzNAAAJ
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992366334-3&sid=QOc1bi_LcEEyfpzNAAAJ
+[phonegap] [console.log] exception firing pause event from native
+[phonegap] [console.log] exception firing resume event from native
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992467693-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992468027-1&sid=OPVgThMrz6pM1K3uAAAK
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992468333-2&sid=OPVgThMrz6pM1K3uAAAK
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992489251-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992489559-1&sid=bmCw6QlRTj2sufmfAAAL
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992489575-2&sid=bmCw6QlRTj2sufmfAAAL
+[phonegap] [console.log] exception firing pause event from native
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992577157-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992577543-1&sid=zXppj8COwbtLcevnAAAM
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992577670-2&sid=zXppj8COwbtLcevnAAAM
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992795922-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992796267-1&sid=dv0bUqFACyJvYWiQAAAN
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992796392-2&sid=dv0bUqFACyJvYWiQAAAN
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992963165-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992963592-1&sid=1TBCkhkNBeD3zJ33AAAO
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443992963703-2&sid=1TBCkhkNBeD3zJ33AAAO
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] exception firing pause event from native
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993297831-7
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993297916-8&sid=UCRZaJyutPPDnVTEAAAP
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993297963-9&sid=UCRZaJyutPPDnVTEAAAP
+[phonegap] [console.log] exception firing resume event from native
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993305492-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993305858-1&sid=h15ug4n49XIIbsNMAAAQ
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993306334-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993306650-1&sid=nJaeyOL_QrEkimQFAAAR
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993306681-2&sid=nJaeyOL_QrEkimQFAAAR
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993451727-0
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993451970-1&sid=pbxaDSUzE1-v5KYCAAAS
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993451996-2&sid=pbxaDSUzE1-v5KYCAAAS
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993452192-3&sid=pbxaDSUzE1-v5KYCAAAS
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+[phonegap] [console.log] 43.129153 -77.6275676 154
+^C
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ phonegap serve
+[phonegap] starting app server...
+[phonegap] listening on 192.168.43.111:3000
+[phonegap] 
+[phonegap] ctrl-c to stop the server
+[phonegap] 
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993487284-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993487440-1&sid=qhhUSmerpDmyXs0fAAAA
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993487456-2&sid=qhhUSmerpDmyXs0fAAAA
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993597187-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993597545-1&sid=pIm5FRwGZ1JYvbw1AAAB
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993597582-2&sid=pIm5FRwGZ1JYvbw1AAAB
+^C  
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ phonegap serve
+[phonegap] starting app server...
+[phonegap] listening on 192.168.43.111:3000
+[phonegap] 
+[phonegap] ctrl-c to stop the server
+[phonegap] 
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993625540-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993625881-1&sid=t0-Y904636iQ83d4AAAA
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993626000-2&sid=t0-Y904636iQ83d4AAAA
+[phonegap] [console.log] exception firing pause event from native
+[phonegap] [console.log] exception firing resume event from native
+^C      
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ phonegap serve
+[phonegap] starting app server...
+[phonegap] listening on 192.168.43.111:3000
+[phonegap] 
+[phonegap] ctrl-c to stop the server
+[phonegap] 
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993813735-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993814030-1&sid=et3AP7WeI6NDSGxSAAAA
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443993814271-2&sid=et3AP7WeI6NDSGxSAAAA
+[phonegap] [console.log] exception firing pause event from native
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443994498288-46
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443994501484-47&sid=76O6MWpbT7knJ4evAAAB
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443994501502-48&sid=76O6MWpbT7knJ4evAAAB
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443994612592-49
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443994671652-56
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443994671917-57&sid=DVjbJeBIb8joWjKGAAAD
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443994671936-58&sid=DVjbJeBIb8joWjKGAAAD
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443994797999-63
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443994798105-64&sid=1mcuVZrLoKZvcl9VAAAE
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443994798135-65&sid=1mcuVZrLoKZvcl9VAAAE
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1443994757973-59
+^C   
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ phonegap serve
+[phonegap] starting app server...
+[phonegap] listening on 10.5.9.244:3000
+[phonegap] 
+[phonegap] ctrl-c to stop the server
+[phonegap] 
+^C
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ g++ --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 6.0 (clang-600.0.56) (based on LLVM 3.5svn)
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ phonegap serve
+[phonegap] starting app server...
+[phonegap] listening on 10.5.16.173:3000
+[phonegap] 
+[phonegap] ctrl-c to stop the server
+[phonegap] 
+^C
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ phonegap serve
+[phonegap] starting app server...
+[phonegap] listening on 192.168.43.111:3000
+[phonegap] 
+[phonegap] ctrl-c to stop the server
+[phonegap] 
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1444164986349-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1444164986702-1&sid=JA6QK2i581tVce0NAAAA
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1444164986742-2&sid=JA6QK2i581tVce0NAAAA
+[phonegap] file changed /Users/joeazar/Dropbox/College/Freshman/Research/History-Today-Bermuda/www/index.html
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1444165120978-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1444165121259-1&sid=m6MW7X2KialKjPIAAAAB
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1444165121293-2&sid=m6MW7X2KialKjPIAAAAB
+[phonegap] [console.log] exception firing pause event from native
+[phonegap] [console.log] exception firing resume event from native
+[phonegap] 200 /__api__/appzip
+[phonegap] 200 /socket.io/socket.io.js
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1444165246004-0
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1444165246188-1&sid=pTRZsrBK8N0fXDHuAAAC
+[phonegap] 200 /socket.io/?EIO=2&transport=polling&t=1444165246225-2&sid=pTRZsrBK8N0fXDHuAAAC
+[phonegap] [console.log] 43.1285998 -77.6297846
+[phonegap] [console.log] 43.1285998 -77.6297846
+[phonegap] [console.log] 43.1285998 -77.6297846
+[phonegap] [console.log] 43.1285998 -77.6297846
+[phonegap] [console.log] 43.1285998 -77.6297846
+[phonegap] [console.log] 43.1282592 -77.6291029
+[phonegap] [console.log] 43.1282592 -77.6291029
+[phonegap] [console.log] 43.1282418 -77.6291248
+[phonegap] [console.log] 43.1282418 -77.6291248
+[phonegap] [console.log] 43.1282407 -77.6290986
+[phonegap] [console.log] 43.1282407 -77.6290986
+[phonegap] [console.log] 43.1282666 -77.6289876
+[phonegap] [console.log] 43.1282666 -77.6289876
+[phonegap] [console.log] 43.128228 -77.6290155
+[phonegap] [console.log] 43.128228 -77.6290155
+[phonegap] [console.log] 43.1281863 -77.6290584
+[phonegap] [console.log] 43.1281863 -77.6290584
+[phonegap] [console.log] 43.1281502 -77.6290847
+[phonegap] [console.log] 43.1281502 -77.6290847
+[phonegap] [console.log] 43.1281142 -77.6290982
+[phonegap] [console.log] 43.1281142 -77.6290982
+[phonegap] [console.log] 43.1280609 -77.6291291
+[phonegap] [console.log] 43.1280609 -77.6291291
+[phonegap] [console.log] 43.1280283 -77.6291554
+[phonegap] [console.log] 43.1280283 -77.6291554
+[phonegap] [console.log] 43.1280027 -77.6291917
+[phonegap] [console.log] 43.1280027 -77.6291917
+[phonegap] [console.log] 43.1279766 -77.6292271
+[phonegap] [console.log] 43.1279766 -77.6292271
+[phonegap] [console.log] 43.1279455 -77.6292849
+[phonegap] [console.log] 43.1279455 -77.6292849
+[phonegap] [console.log] 43.1279091 -77.6293359
+[phonegap] [console.log] 43.1279091 -77.6293359
+[phonegap] [console.log] 43.1279024 -77.6293647
+[phonegap] [console.log] 43.1279024 -77.6293647
+[phonegap] [console.log] 43.1278666 -77.629416
+[phonegap] [console.log] 43.1278666 -77.629416
+[phonegap] [console.log] 43.1278269 -77.629465
+[phonegap] [console.log] 43.1278269 -77.629465
+[phonegap] [console.log] 43.1278006 -77.6295179
+[phonegap] [console.log] 43.1278006 -77.6295179
+[phonegap] [console.log] 43.1277915 -77.6295795
+[phonegap] [console.log] 43.1277915 -77.6295795
+[phonegap] [console.log] 43.1277778 -77.6296492
+[phonegap] [console.log] 43.1277778 -77.6296492
+[phonegap] [console.log] 43.1277524 -77.6297289
+[phonegap] [console.log] 43.1277524 -77.6297289
+[phonegap] [console.log] 43.127742 -77.6297869
+[phonegap] [console.log] 43.127742 -77.6297869
+[phonegap] [console.log] 43.1277013 -77.629861
+[phonegap] [console.log] 43.1277013 -77.629861
+[phonegap] [console.log] 43.1276847 -77.6299172
+[phonegap] [console.log] 43.1276847 -77.6299172
+[phonegap] [console.log] 43.1276759 -77.6299791
+[phonegap] [console.log] 43.1276759 -77.6299791
+[phonegap] [console.log] 43.1276574 -77.6300363
+[phonegap] [console.log] 43.1276574 -77.6300363
+[phonegap] [console.log] 43.1276351 -77.6300842
+[phonegap] [console.log] 43.1276351 -77.6300842
+[phonegap] [console.log] 43.1276333 -77.6301242
+[phonegap] [console.log] 43.1276333 -77.6301242
+[phonegap] [console.log] 43.1276471 -77.6301429
+[phonegap] [console.log] 43.1276471 -77.6301429
+[phonegap] [console.log] 43.1276652 -77.6301308
+[phonegap] [console.log] 43.1276652 -77.6301308
+[phonegap] [console.log] 43.1276994 -77.6300997
+[phonegap] [console.log] 43.1276994 -77.6300997
+[phonegap] [console.log] 43.1277272 -77.6300813
+[phonegap] [console.log] 43.1277272 -77.6300813
+[phonegap] [console.log] 43.1277583 -77.630034
+[phonegap] [console.log] 43.1277583 -77.630034
+[phonegap] [console.log] 43.1278133 -77.6299951
+[phonegap] [console.log] 43.1278133 -77.6299951
+[phonegap] [console.log] 43.1278498 -77.6299711
+[phonegap] [console.log] 43.1278498 -77.6299711
+[phonegap] [console.log] 43.1278733 -77.6299458
+[phonegap] [console.log] 43.1278733 -77.6299458
+[phonegap] [console.log] 43.1278972 -77.6299148
+[phonegap] [console.log] 43.1278972 -77.6299148
+[phonegap] [console.log] 43.1279171 -77.629898
+[phonegap] [console.log] 43.1279171 -77.629898
+[phonegap] [console.log] 43.1279397 -77.6298516
+[phonegap] [console.log] 43.1279397 -77.6298516
+[phonegap] [console.log] 43.1279717 -77.6298085
+[phonegap] [console.log] 43.1279717 -77.6298085
+[phonegap] [console.log] 43.1279877 -77.629772
+[phonegap] [console.log] 43.1279877 -77.629772
+[phonegap] [console.log] 43.1280055 -77.6297355
+[phonegap] [console.log] 43.1280055 -77.6297355
+[phonegap] [console.log] 43.1280346 -77.6296719
+[phonegap] [console.log] 43.1280346 -77.6296719
+[phonegap] [console.log] 43.128061 -77.6296255
+[phonegap] [console.log] 43.128061 -77.6296255
+[phonegap] [console.log] 43.128091 -77.6295709
+[phonegap] [console.log] 43.128091 -77.6295709
+[phonegap] [console.log] 43.1281105 -77.6295285
+[phonegap] [console.log] 43.1281105 -77.6295285
+[phonegap] [console.log] 43.1281252 -77.6294881
+[phonegap] [console.log] 43.1281252 -77.6294881
+[phonegap] [console.log] 43.1281539 -77.6294419
+[phonegap] [console.log] 43.1281539 -77.6294419
+[phonegap] [console.log] 43.1281768 -77.629406
+[phonegap] [console.log] 43.1281768 -77.629406
+[phonegap] [console.log] 43.1281927 -77.6293732
+[phonegap] [console.log] 43.1281927 -77.6293732
+[phonegap] [console.log] 43.1282124 -77.6293329
+[phonegap] [console.log] 43.1282124 -77.6293329
+[phonegap] [console.log] 43.1282353 -77.6292852
+[phonegap] [console.log] 43.1282353 -77.6292852
+[phonegap] [console.log] 43.1282506 -77.6292462
+[phonegap] [console.log] 43.1282506 -77.6292462
+[phonegap] [console.log] 43.1282578 -77.6292014
+[phonegap] [console.log] 43.1282578 -77.6292014
+[phonegap] [console.log] 43.1282712 -77.6291616
+[phonegap] [console.log] 43.1282712 -77.6291616
+[phonegap] [console.log] 43.1282809 -77.6291221
+[phonegap] [console.log] 43.1282809 -77.6291221
+[phonegap] [console.log] 43.1282827 -77.6290705
+[phonegap] [console.log] 43.1282827 -77.6290705
+[phonegap] [console.log] 43.1283046 -77.629051
+[phonegap] [console.log] 43.1283046 -77.629051
+[phonegap] [console.log] 43.128304 -77.6290462
+[phonegap] [console.log] 43.128304 -77.6290462
+[phonegap] [console.log] 43.1283054 -77.6290278
+[phonegap] [console.log] 43.1283054 -77.6290278
+[phonegap] [console.log] 43.1283162 -77.6290272
+[phonegap] [console.log] 43.1283162 -77.6290272
+[phonegap] [console.log] 43.128329 -77.6290036
+[phonegap] [console.log] 43.128329 -77.6290036
+[phonegap] [console.log] 43.1283424 -77.6289936
+[phonegap] [console.log] 43.1283424 -77.6289936
+[phonegap] [console.log] 43.128325 -77.6290065
+[phonegap] [console.log] 43.128325 -77.6290065
+[phonegap] [console.log] 43.1283092 -77.6290557
+[phonegap] [console.log] 43.1283092 -77.6290557
+[phonegap] [console.log] 43.128313 -77.6290579
+[phonegap] [console.log] 43.128313 -77.6290579
+[phonegap] [console.log] 43.128346 -77.6292704
+[phonegap] [console.log] 43.128346 -77.6292704
+[phonegap] [console.log] 43.1283432 -77.6292625
+[phonegap] [console.log] 43.1283432 -77.6292625
+[phonegap] [console.log] 43.1283647 -77.6292785
+[phonegap] [console.log] 43.1283647 -77.6292785
+[phonegap] [console.log] 43.1283534 -77.6292802
+[phonegap] [console.log] 43.1283534 -77.6292802
+[phonegap] [console.log] 43.1283693 -77.6292709
+[phonegap] [console.log] 43.1283693 -77.6292709
+[phonegap] [console.log] 43.1284166 -77.629287
+[phonegap] [console.log] 43.1284166 -77.629287
+[phonegap] [console.log] 43.128439 -77.6293005
+[phonegap] [console.log] 43.128439 -77.6293005
+[phonegap] [console.log] 43.1284386 -77.6293003
+[phonegap] [console.log] 43.1284386 -77.6293003
+[phonegap] [console.log] 43.1284513 -77.6293087
+[phonegap] [console.log] 43.1284513 -77.6293087
+[phonegap] [console.log] 43.1284244 -77.6292951
+[phonegap] [console.log] 43.1284244 -77.6292951
+[phonegap] [console.log] 43.1284378 -77.6293
+[phonegap] [console.log] 43.1284378 -77.6293
+[phonegap] [console.log] 43.128446 -77.6293003
+[phonegap] [console.log] 43.128446 -77.6293003
+[phonegap] [console.log] 43.1284253 -77.629289
+[phonegap] [console.log] 43.1284253 -77.629289
+[phonegap] [console.log] 43.1284234 -77.6292883
+[phonegap] [console.log] 43.1284234 -77.6292883
+[phonegap] [console.log] 43.1284084 -77.6292799
+[phonegap] [console.log] 43.1284084 -77.6292799
+[phonegap] [console.log] 43.1284084 -77.6292799
+^C
+dhcp-10-5-10-231:History-Today-Bermuda joeazar$ 
